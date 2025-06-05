@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/jyoti-5906/Prodigy_WD_01/main/github-header-image%5B1%5D.png" alt="Header" style="width:100%;" />
+<img src="[https://raw.githubusercontent.com/jyoti-5906/Prodigy_WD_01/main/github-header-image%5B1%5D](https://github.com/jyoti-5906/Prodigy_WD_01/edit/main/README.md).png" alt="Header" style="width:100%;" />
 
 
 # Prodigy_WD_01
