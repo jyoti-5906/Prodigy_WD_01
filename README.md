@@ -14,6 +14,7 @@ Currently learning and growing through exciting frontend projects!
 This project is a fully responsive **landing page** designed using **HTML and CSS** only.  
 It showcases smooth layouts, clean UI design, and adaptive responsiveness across devices.
 
+---
 ### 💼 Key Features:
 - Mobile-first responsive layout
 - CSS Grid and Flexbox usage
