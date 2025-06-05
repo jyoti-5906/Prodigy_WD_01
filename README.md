@@ -1,6 +1,6 @@
 <img src="https://raw.githubusercontent.com/jyoti-5906/Prodigy_WD_01/main/Task1img.jpg" alt="Landing Page Banner" style="width: 100%; border-radius: 10px;" />
 
-# Hi 👋, I'm Jyoti
+# Hi 🙏, I'm Jyoti
 
 A passionate frontend developer from India 🇮🇳 who loves building beautiful and responsive web interfaces.  
 Currently learning and growing through exciting frontend projects!
