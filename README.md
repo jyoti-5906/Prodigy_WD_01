@@ -5,7 +5,7 @@
 A passionate frontend developer from India 🇮🇳 who loves building beautiful and responsive web interfaces.  
 Currently learning and growing through exciting frontend projects!
 
----
+
 <img align="right" alt="coding" width=300 boder-radius=10 src="https://media1.tenor.com/m/GfSX-u7VGM4AAAAd/coding.gif">
 
 
