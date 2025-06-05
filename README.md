@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/jyoti-5906/Prodigy_WD_01/main/github-header-image%5B1%5D.png" alt="Header" style="width: 100%; border-radius: 10px;" />
+![logo](https://github.com/jyoti-5906/Jyoti/blob/main/github-header-image.png)
 
 # Hi 👋, I'm Jyoti
 
