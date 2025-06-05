@@ -13,7 +13,7 @@ This project is a fully responsive **landing page** designed using **HTML and CS
 It showcases smooth layouts, clean UI design, and adaptive responsiveness across devices.
 <img align="right" alt="coding" width=300 boder-radius=10 src="https://media1.tenor.com/m/GfSX-u7VGM4AAAAd/coding.gif">
 
----
+
 ### 💼 Key Features:
 - Mobile-first responsive layout
 - CSS Grid and Flexbox usage
