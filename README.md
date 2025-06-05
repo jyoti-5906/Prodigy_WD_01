@@ -1,4 +1,4 @@
-![logo](https://github.com/jyoti-5906/Prodigy_WD_01-header-"C:\Users\lenovo\OneDrive\Desktop\Task1img.jpg")
+![logo](https://github.com/jyoti-5906/Prodigy_WD_01)
 # Hi 👋, I'm Jyoti
 
 A passionate frontend developer from India 🇮🇳 who loves building beautiful and responsive web interfaces.  
