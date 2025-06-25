@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Responsive Landing Page</title>
+<style>
+  :root {
+    --primary-color: #5a67d8;
+    --secondary-color: #edf2f7;
+    --accent-color: #805ad5;
+    --text-color: #2d3748;
+    --bg-light: #f7fafc;
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    margin: 0;
+    font-family: var(--font-family);
+    color: var(--text-color);
+    background-color: var(--bg-light);
+    line-height: 1.6;
+  }
+  header {
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    color: white;
+    padding: 100px 20px 60px;
+    text-align: center;
+  }
+  header h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+  }
+  header p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .btn-primary {
+    background-color: white;
+    color: var(--primary-color);
+    padding: 15px 40px;
+    border: none;
+    border-radius: 40px;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 8px 15px rgba(90,103,216,0.3);
+  }
+  .btn-primary:hover,
+  .btn-primary:focus {
+    background-color: var(--accent-color);
+    color: white;
+    outline: none;
+  }
+  main {
+    max-width: 1100px;
+    margin: 40px auto 80px;
+    padding: 0 20px;
+  }
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 40px;
+  }
+  .feature {
+    background-color: white;
+    border-radius: 12px;
+    padding: 30px 25px;
+    box-shadow: 0 4px 12px rgb(0 0 0 / 0.05);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .feature:hover {
+    transform: translateY(-8px);
+  }
+  .feature h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+  }
+  .feature p {
+    font-size: 1rem;
+    color: #4a5568;
+  }
+  footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    font-size: 0.9rem;
+  }
+  /* Responsive Typography */
+  @media (max-width: 600px) {
+    header h1 {
+      font-size: 2.2rem;
+    }
+    header p {
+      font-size: 1rem;
+    }
+    main {
+      margin: 20px auto 50px;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Lead Your Business Forward</h1>
+  <p>Innovative solutions to accelerate your digital transformation and unlock new opportunities.</p>
+  <button class="btn-primary" id="cta-button">Get Started</button>
+</header>
+<main>
+  <section class="features" aria-label="Key Features">
+    <article class="feature">
+      <h3>Easy Integration</h3>
+      <p>Seamlessly connect with your existing tools and platforms without any hassle or downtime.</p>
+    </article>
+    <article class="feature">
+      <h3>Reliable Performance</h3>
+      <p>Experience fast, secure, and scalable performance tailored to your business needs.</p>
+    </article>
+    <article class="feature">
+      <h3>Data-Driven Insights</h3>
+      <p>Leverage powerful analytics to make informed decisions and drive growth efficiently.</p>
+    </article>
+    <article class="feature">
+      <h3>24/7 Support</h3>
+      <p>We're here for you anytime with expert support and continuous improvements.</p>
+    </article>
+  </section>
+</main>
+<footer>
+  &copy; 2024 YourCompanyName. All rights reserved.
+</footer>
+<script>
+  // Add button click animation for fun
+  const ctaButton = document.getElementById('cta-button');
+  ctaButton.addEventListener('click', () => {
+    ctaButton.textContent = 'Redirecting...';
+    ctaButton.disabled = true;
+    // Simulate redirect after 1.5 seconds
+    setTimeout(() => {
+      ctaButton.textContent = 'Get Started';
+      ctaButton.disabled = false;
+      alert('Imagine redirecting to signup or contact page.');
+    }, 1500);
+  });
+</script>
+</body>
+</html>
